@@ -35,3 +35,5 @@ def merge_sort(arr):
 data = [38, 27, 43, 3, 9, 82, 10]
 merge_sort(data)
 print("Sorted list:", data)
+
+# Sorted array: [3, 9, 10, 27, 38, 43, 82]

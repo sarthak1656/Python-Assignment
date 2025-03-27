@@ -17,3 +17,7 @@ if result != -1:
     print(f"Target found at index {result}. ")
 else:
     print("Target not found.")
+
+
+
+# Target found at index 7.
