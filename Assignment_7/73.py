@@ -31,3 +31,8 @@ postfix_expr = "ab+ef*g*-"
 root_expr = construct_tree(postfix_expr)
 print("\nInorder of Expression Tree:")
 inorder_expr(root_expr)
+
+
+
+# Inorder of Expression Tree:
+# ((a+b)-((e*f)*g))
