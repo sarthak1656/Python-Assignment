@@ -70,3 +70,10 @@ if __name__ == "__main__":
     search(root, 22)
     root = remove(root, 4)
     inorder(root)
+
+
+# Inorder traversal of the binary search tree is:
+# 4 8 10 12 14 20 22 
+# 222 not found
+# 22 found
+# 8 10 12 14 20 22
