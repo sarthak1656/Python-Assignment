@@ -2,7 +2,7 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.left = None
-        self.right =
+        self.right = NotImplemented
         
 n1 = Node(10)
 n2 = Node(20)
@@ -60,5 +60,5 @@ def menu():
             print("Exiting program.")
             break
         else:
-            print("Invalid choice! Please enter a number between 1 and 
+            print("Invalid choice! Please enter a number between 1 and ")
 menu()
