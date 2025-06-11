@@ -69,7 +69,7 @@ class PhoneBook:
         for name, phone in self.contacts:
             print(f"Name: {name}, Phone: {phone}")
 
-    def search_contact_linear(self, name):
+    def search_contact_linear(self, name): 
         for n, p in self.contacts:
             if n.lower() == name.lower():
                 print(f"Found (Linear Search): Name: {n}, Phone: {p}")
@@ -129,8 +129,4 @@ pb.search_contact_hash("Charlie")
 # Name: Alice, Phone: 1111111111
 # Name: Charlie, Phone: 5555555555
 # Found (Linear Search): Name: Charlie, Phone: 5555555555
-# Contacts sorted by name:
-# Name: Alice, Phone: 1111111111
-# Name: Charlie, Phone: 5555555555
-# Found (Binary Search): Name: Charlie, Phone: 5555555555
 # Found (Hash Table): Name: Charlie, Phone: 5555555555

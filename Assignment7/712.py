@@ -42,5 +42,8 @@ preorder(n1)
 print()
 postorder(n1)
 
-
+# Binary Tree Traversals:
+# 30 20 10 50 
+# 10 20 30 50 
+# 30 20 50 10 
 
